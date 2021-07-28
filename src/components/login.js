@@ -9,19 +9,21 @@ async function loginUser(credentials) {
         body: JSON.stringify(credentials)
     })
         .then(data => data.json())
+
 }
 
 const Login = ({ setToken }) => {
     const [username, setUserName] = useState();
     const [password, setPassword] = useState();
 
-    const handleSubmit = async e => {
+    const handleSubmit = e => {
         e.preventDefault();
-        const token = await loginUser({
+        const token = loginUser({
             username,
             password
         });
         setToken(token);
+
     }
 
 
