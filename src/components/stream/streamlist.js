@@ -1,9 +1,9 @@
 import React from 'react'
 
-const StreamCreate = () => {
+const StreamList = () => {
     return (
-        <div> StreamCreate</div>
+        <div> StreamList</div>
     )
 }
 
-export default StreamCreate
+export default StreamList
