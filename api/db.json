@@ -1,3 +1,34 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "My stream",
+      "description": "This is a good Stream",
+      "id": 1
+    },
+    {
+      "title": "Stream Means",
+      "description": "To Flow out",
+      "id": 2
+    },
+    {
+      "title": "I created this stream",
+      "description": "This was submitted by edit screen!!!",
+      "id": 3
+    },
+    {
+      "title": "second stream",
+      "description": "This was submit by edit page!!",
+      "id": 4
+    },
+    {
+      "title": "Navigation stream",
+      "description": "Navigate to  stream list page!!!!!",
+      "id": 5
+    },
+    {
+      "title": "Second Navigation",
+      "description": "Second Navigate to List Page !!!!!",
+      "id": 7
+    }
+  ]
 }
